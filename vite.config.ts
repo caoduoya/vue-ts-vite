@@ -4,7 +4,6 @@ import path from "path";
 //@ts-ignore
 import viteCompression from "vite-plugin-compression";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   base: "./", //打包路径
   plugins: [
